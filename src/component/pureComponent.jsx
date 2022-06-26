@@ -5,7 +5,7 @@ class ComponentPure extends PureComponent{
     constructor(props){
         super(props);
         this.state = {
-            name: "Ribhu",
+            name: "Niraj",
             // arr:[10]
         };
     }
@@ -13,7 +13,7 @@ class ComponentPure extends PureComponent{
     handleUpdate = () => {
         // const number = Math.round(Math.random() * 10);
         // this.setState({ name: this.state.name})
-        this.setState({ name: "Ghosh"})
+        this.setState({ name: "Singh"})
         // const { arr } =this.state;
         // const arrCopy = [...arr];
         // arrCopy.push(number);
